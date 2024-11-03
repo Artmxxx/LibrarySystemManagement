@@ -18,7 +18,7 @@ Done by: Manal Gharrabou And Quentin Lauriot
 6. [Testing](#testing)
 7. [Usage and Examples](#usage-and-examples)
 8. [Screenshots and Documentation](#screenshots-and-documentation)
-9. [Coding Standards](#coding-standards)
+9. [Docker deployment](#docker-deployement)
 10. [Contributors](#contributors)
 
 ---

@@ -1,5 +1,3 @@
----
-
 # Project OO Systems Development - The Library manager
 
 **Description:**

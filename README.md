@@ -33,7 +33,7 @@ The project is split into two services:
 1. **REST Service**: Handles CRUD operations for books using an SQL database (MySQL).
 2. **gRPC Service**: Manages borrowed books and checks book availability using a NoSQL database (MongoDB).
 
-Both services communicate over HTTP, and each service is documented and accessible via Swagger. **phooootoooo**
+Both services communicate over HTTP, and each service is documented and accessible via Swagger.
 
 ---
 

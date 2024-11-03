@@ -3,7 +3,9 @@
 **Description:**
 
 This project showcases a microservices architecture with two services: one built with REST and the other with RPC (gRPC). Each service uses a unique database (SQL for the REST service and NoSQL(here MongoDb) for the gRPC service). The project adheres to the specified Java coding rules and is documented using the Open API specification (Swagger). It is also accompagnied with a responsive frontend.
-Done by: Manal And Quentin
+
+---
+Done by: Manal Gharrabou And Quentin Lauriot
 ---
 
 ## Table of Contents

@@ -43,6 +43,7 @@ Both services communicate over HTTP, and each service is documented and accessib
 
 **Base URL**: `http://localhost:8080/api/books`
 
+
 #### Endpoints:
 - **GET** `/api/books` - Fetch all books
 - **POST** `/api/books` - Add a new book
@@ -162,6 +163,7 @@ The frontend service is developed with **Vue.js** and styled using **Tailwind CS
 
 - **Book Management**: Allows users to add, edit, or delete books in the library.
 - **Search and Availability Check**: Users can search for books by title, author, or ISBN and check their availability.
+- **Base Url**: http://localhost:5173/.
 
 <img width="458" alt="Capture d’écran 2024-11-03 230841" src="https://github.com/user-attachments/assets/6c7b484d-ee40-4d2c-9925-d1c7b103c47f">
 

@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_package = "com.example.OODevProject.grpc";
+option java_outer_classname = "LibraryProto";
+
+service LibraryService {
+  rpc BorrowBook(BorrowBookRequest) returns (BorrowBookResponse);
+  rpc ReturnBook(ReturnBookRequest) returns (ReturnBookResponse);
+  rpc CheckBookAvailability(CheckAvailabilityRequest) returns (CheckAvailabilityResponse);
+}
+
+message BorrowBookRequest {
+  string user_id = 1;
+  string book_id = 2;
+}
+
+message BorrowBookResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+message ReturnBookRequest {
+  string user_id = 1;
+  string book_id = 2;
+}
+
+message ReturnBookResponse {
+  bool success = 1;
+  string message = 2;
+}
+
+message CheckAvailabilityRequest {
+  string book_id = 1;
+}
+
+message CheckAvailabilityResponse {
+  bool available = 1;
+}
